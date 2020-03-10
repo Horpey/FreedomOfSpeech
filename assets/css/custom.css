@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/Graphik-Regular-Web_b78f8679.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Graphik-Medium-Web_6b567b54.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/Graphik-Bold-Web_0c9369c4.woff2') format('woff2');
+}
+html,
+body {
+  font-family: 'Graphik';
+}
+.navbar a:not(.btn):not(.dropdown-item) {
+  color: black;
+}
+.shadow-none {
+  box-shadow: none;
+}
+.navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn) {
+  color: black;
+}
+.headtop h1 {
+  font-weight: 600;
+  font-size: 65px;
+  margin-bottom: 11px;
+  margin-top: 12%;
+}
+
+.wtch:hover {
+  color: black;
+}
+.wtch span {
+  color: #0250ff;
+  background: #014eff24;
+  padding: 10px;
+  font-size: 11px;
+  border-radius: 45px;
+  margin-right: 8px;
+}
+.vidprev video {
+  width: 100%;
+  margin-top: 65px;
+  border-radius: 26px;
+}
+.viddesc {
+  margin-top: 60px;
+}
+.viddesc h3 {
+  font-weight: bold;
+}
+.text-blue {
+  color: #0250ff;
+}
+.text-blue:hover {
+  color: rgb(7, 60, 185);
+}
+.pastdisp {
+  height: 310px;
+  width: 100%;
+  border-radius: 15px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+@media screen and (max-width: 991px) {
+  .sidebar-collapse .navbar .navbar-toggler-bar {
+    background-color: black;
+  }
+  .sidebar-collapse .navbar-collapse:before {
+    background: linear-gradient(#0000ff 0%, hsl(204, 98%, 36%) 80%);
+  }
+}
